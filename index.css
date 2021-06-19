@@ -1,0 +1,49 @@
+body{
+    background: url('https://source.unsplash.com/collection/190727/1600x900')no-repeat center center/cover;
+}
+
+h1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.box{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid #3f3c3c;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ecdbdb;
+
+}
+
+.passbox{
+    position: relative;
+}
+
+.fa{
+    position: absolute;
+    right: 10px;
+    margin-top: -38px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 100%;
+}
+
+#pass_info ul li{
+    list-style-type: none;
+}
+
+.invalid{
+    color: red;
+}
+
+.valid{
+    color: rgb(75, 160, 75);
+}
